@@ -5837,7 +5837,6 @@ document.body.style.gap = "10px";
 
 data.forEach((x) => {
   const article = document.createElement("article");
-
   article.style.backgroundColor = x.hexColor;
   article.addEventListener("click", () => alert(`${x.fullName}입니다`));
 
